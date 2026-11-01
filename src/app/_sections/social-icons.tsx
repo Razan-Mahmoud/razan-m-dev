@@ -24,7 +24,7 @@ export default function SocialIcons() {
     },
   ];
   return (
-    <section className="flex items-center justify-center gap-8">
+    <section className="flex items-start justify-center gap-8 py-4">
       {/* GitHub */}
       {iconsInfo.map((icon) => {
         return (

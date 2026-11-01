@@ -1,6 +1,6 @@
-import ContactMePage from "./_sections/contact-me-page";
 import Hero from "./_sections/hero";
 import TechnicalSkills from "./_sections/technical-skills";
+import ContactMePage from "./contact-me/page";
 import ProjectsMainPage from "./projects/page";
 
 export default function Home() {
@@ -9,7 +9,6 @@ export default function Home() {
       <Hero />
       <ProjectsMainPage />
       <TechnicalSkills />
-
       <ContactMePage />
     </main>
   );
