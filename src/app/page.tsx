@@ -1,6 +1,6 @@
+import ContactMePage from "./_sections/contact-me";
 import Hero from "./_sections/hero";
 import TechnicalSkills from "./_sections/technical-skills";
-import ContactMePage from "./contact-me/page";
 import ProjectsMainPage from "./projects/page";
 
 export default function Home() {
